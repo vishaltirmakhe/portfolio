@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        PORTFOLIO WEBSITE
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="bg-video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src="" type="video/mp4">
+            <!-- Add additional source tags for other formats if needed -->
+            Your browser does not support the video tag.
+        </video>
+        <!-- Your existing content goes here -->
+        <!-- Make sure to position your content so that it appears above the video -->
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/PORTFOLIO-WEBSITE-main/img/download.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <div class="header-col-1">
+                    <img src="/PORTFOLIO-WEBSITE-main/img/vishal.jpeg" align="right" height="380" width="300">
+                </div>
+                <div class="header-col-2">
+                    <p>
+                    <h3>
+                        IT Student</h3>
+
+                    </p>
+                    <h1> Hi,I'm <span>Vishal Tirmakhe</span><br> from Kopargaon...</h1>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--About Me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>
+                        Hey everyone,
+
+                        I'm Vishal, an IT student at S.N.D. College of Engineering and research center yeola.
+                        Proficient in HTML, CSS, Java, and C, I'm passionate about technology and AI exploration.
+                        Excited about cloud computing, especially AWS, for its potential to drive innovation and
+                        solve real-world challenges. Thrilled to join the AWS emerging talent community for
+                        collaborative learning and creative problem-solving. Let's team up and make a difference
+                        with AWS!
+                    </p>
+                    <div class="tabs-container">
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                            <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>OOPs using C++</span></li>
+                                <li><span>DSA C programming</span></li>
+                                <li><span>Java programming</span></li>
+                                <li><span>Front end development</span></li>
+                                <li><span>Communication Skills</span></li>
+                                <li><span>Presentation Skills</span></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development</span><br>
+                                    <ul>
+                                        <li>ONLINE CAB BOOKING SYSTEM-DROP ME</li>
+                                        <li>WEDDING HALL MANAGEMENT SYSTEM</li>
+                                        <li>AIRLINE TICKET RESERVATION MANAGEMENT SYSTEM</li>
+                                        <li>PERSONAL PORTFOLIO WEBSITE</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                       
+                                <div class="tab-contents" id="internship">
+                                    <ul>
+                                        <li><span>Web and Software Development Process</span><br>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>Internship Details</summary>
+                                                        "Internship for 'Web and Software Development Process' for 1 month by Sunanda Infotech, Nashik. Gained hands-on experience in web and software development, learned modern technologies, and collaborated with a professional team."
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><span>Development of Mobile Application & Laptop Repairing</span><br>
+                                            <ul>
+                                                <li>
+                                                    <details>
+                                                        <summary>Inplant Training Details</summary>
+                                                        "Inplant Training for 'Development of Mobile Application & Laptop Repairing' for 6 weeks by Sunanda Infotech, Nashik. Acquired skills in mobile app development, gained practical knowledge in laptop repair, and worked alongside experienced technicians."
+                                                    </details>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BE @ S.N.D. College of Engineering and Research Center, Yeola - 2021-2024 (9.47 SGPA)</span><br>BE</li>
+                                <li><span>Diploma @ Gautam Polytechnic Institute, Kolpewadi, Kopargaon - 2021 (82.35%)</span><br>DIPLOMA</li>
+                                <li><span>HSC @ SSGM College Kopargaon - 2018 (46.00%)</span><br>HSC</li>
+                                <li><span>SSC @ Janata English School, Sanvatsar, Kopargaon - 2016 (63.20%)</span><br>SSC</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="interests">
+                            <ul>
+                                <li><span>Learning new things</span><br>Programming languages</li>
+                                <li><span>Listening to Music</span><br>Hindi, Marathi, English Music</li>
+                                <li><span>Travelling</span><br>Visiting different places</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="achievements">
+                            <ul>
+                                <li><span>Patent Applied for “Smart Uniform(Dress Code)Detector System Using Convolution Neural Network”.</span></li>
+                                <li><span>NPTEL Certification on programming in Java</span></li>
+                                <li><span>NPTEL Certification on Internet of Things</span></li>
+                                <li><span>National level technical event project completion certification for first position in college.</span></li>
+                                <li><span>Python 3.4.3 Traning Certification</span></li>
+                                <li><span>HTML and C programming Certification</span></li>
+                                <li><span>Geodata Processing using Python this online course
+                                    Conducted by IIRS ISRO Certificate</span></li>
+                                <li><span>Participated in the national level Virtual Innovators Contest HACKATHON 1.0 conducted on January 26, 2024, with certification.</span></li>
+                                <li><span>Basics of Remote Sensing, Geographical Information System and Global Navigation Satellite System. this online course Conducted by IIRS ISRO</span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        function opentab(tabName) {
+                            var i;
+                            var x = document.getElementsByClassName("tab-contents");
+                            var y = document.getElementsByClassName("tab-links");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].classList.remove("active-tab");
+                            }
+                            for (i = 0; i < y.length; i++) {
+                                y[i].classList.remove("active-link");
+                            }
+                            document.getElementById(tabName).classList.add("active-tab");
+                            document.querySelector(`[onclick="opentab('${tabName}')"]`).classList.add("active-link");
+                        }
+                    </script>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <br>
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>HTML and CSS: Fundamental for structuring and styling web content.
+                        Responsive Design: Ensuring websites look good and function well across various devices
+                        and screen sizes.
+                        UI/UX Design: Designing intuitive interfaces and enhancing user experience.
+                        Typography: Selecting and using fonts effectively to enhance readability and visual
+                        appeal.
+                        Color Theory: Understanding color schemes, contrast, and harmony for a pleasing design.
+                        Graphic Design: Creating and incorporating graphics, logos, icons, and other visual
+                        elements.
+                        Layout Design: Arranging content, navigation, and multimedia elements for optimal
+                        presentation.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Java Developer</h2>
+                    <p>Java Programming: Proficiency in core Java concepts such as classes, objects,
+                        inheritance, polymorphism, and exception handling.
+                        Data Structures and Algorithms: Knowledge of data structures like arrays, linked lists,
+                        stacks, queues, trees, and graphs, along with algorithm design and analysis.
+                        Database Management: Understanding of database concepts and experience with SQL for
+                        database operations.
+                        </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>Data Analysis</h2>
+                    <p>Statistical Analysis: Understanding statistical concepts like mean, median, mode,
+                        standard deviation, hypothesis testing, and regression analysis.
+                        Data Wrangling: Cleaning, transforming, and preparing raw data for analysis using tools
+                        like Python (Pandas, NumPy) or R.
+                        Data Visualization: Presenting data insights effectively through charts, graphs, and
+                        dashboards using tools like Tableau, Power BI, Matplotlib, or ggplot2.
+                        Machine Learning: Knowledge of machine learning algorithms for predictive modeling,
+                        classification, clustering, and regression tasks.
+                        Database Management: Working with databases to extract, manipulate, and analyze
+                        structured data using SQL or NoSQL databases.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/PORTFOLIO-WEBSITE-main/img/pro1.jpeg" height="250px">
+                    <div class="layer">
+
+                    </div>
+                    <h3 style="padding: 20px;">AUTONOMOUS ROBOT FOR PESTICIDE APPLICATION</h3>
+                </div>
+                
+                <div class="work">
+                    <img src="/PORTFOLIO-WEBSITE-main/img/pro3.jpeg" height="250px">
+                    <div class="layer">
+
+                    </div>
+                    <h3 style="padding: 20px;">AIRLINE TICKET RESERVATION MANAGEMENT SYSTEM</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><a href="mailto:vishaltirmakhe31@gmail.com">vishaltirmakhe31@gmail.com</a></p>
+                    <p><a href="tel:+917030510239">7030510239</a></p>
+                    <p><a href="https://linkedin.com/in/vishal-ravindra-tirmakhe-a409a5247" target="_blank">Your LinkedIn Profile</a></p>
+                </div>
+                
+                <div class="contact-right">
+                    <a href=""><i class=""></i></a>
+                    <a href=""><i class=""></i></a>
+                    <a href=""><i class=""></i></a>
+                    <a href=""><i class=""></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1tFzQZOySmcJWJWg5DkWMoNmLtzxdDDFf/view" class="btn btn 2" target="_blank">Download CV</a>
+            </div>
+            <div id="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyyright">
+            <p style="text-align: center; background-color: rgba(119, 136, 153, 0.842);"> Copyright Ⓒ 2024 by
+                Vishal Tirmakhe. All rights reserved. </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
